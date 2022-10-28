@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+    color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: #555;
+    color: whitesmoke;
+}
+
+#navbar{
+    color: grey;
+    background-color: grey;
+}
+
+#navbar ul{
+    padding: 0px;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    font-size: 16px;
+    font-weight: bolder;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#showcase{
+    background-image: url(../image/img1.jpg);
+    background-position: center right;
+    min-height: 300px;
+    text-align: center;
+}
+
+#showcase h1{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5em;
+    padding-top: 30px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #555;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+#main-footer{
+    background: #555;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width: 600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}

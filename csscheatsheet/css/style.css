@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    /* Same as above
+     font: normal 20px Verdana, Geneva, Tahoma, sans-serif; */
+
+     line-height: 2.0em;
+     margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    color: red;
+}
+li :active{
+    color: green;
+}
+a  :visited{
+    color: blue;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    background-color: black;
+    color: white;
+    border-left: 10px red solid;
+    border-right: 10px red solid;
+    border-top: 10px red solid;
+    border-bottom: 10px red solid;
+    border-bottom-style: dashed;
+    /* Same as above 
+    border: 10px red solid; */
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* Same as above
+    padding: 100px; */
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* Same as above
+    margin: 50px; */
+}
+.box-1 h1{
+    font-family: Arial;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.box-2{
+    border: 5px dotted salmon;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.categories{
+    border: 1px wheat solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 10px;
+    padding-left: 10px;
+    list-style: square;
+    list-style: none;
+}
+.categories li {
+    padding-bottom:  10px;
+    border-bottom: solid 1px red;
+}
+
+
+.block{
+    color: black;
+    float: left;
+    width: 33.3%;
+    border: 1px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.block h3{
+    font-size: 35px;
+    padding: auto;
+    margin: auto;
+}
+.block p{
+    font-size: medium;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
